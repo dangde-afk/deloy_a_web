@@ -1,0 +1,28 @@
+{
+  "version": 0,
+  "sha": "6a3556849e6f4212e88760e8cb6b4bcc4d306165",
+  "ref": "refs/heads/main",
+  "job": {
+    "correlator": "ci-build_snapshot",
+    "id": "run_id"
+  },
+  "detector": {
+    "name": "maven-dep-detector",
+    "version": "1.0.0",
+    "url": "https://github.com/dangde-afk/deloy_a_web"
+  },
+  "scanned": "2025-07-05T14:10:52Z",
+  "manifests": {
+    "pom.xml": {
+      "name": "pom.xml",
+      "file": {
+        "source_location": "pom.xml"
+      },
+      "resolved": {
+        "org.springframework.boot:spring-boot-starter-web": {
+          "package_url": "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.5.3"
+        }
+      }
+    }
+  }
+}

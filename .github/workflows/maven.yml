@@ -156,6 +156,7 @@ jobs:
           # Upload file .jar từ CI lên VPS
           scp *.jar ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home/${{ secrets.USERNAME }}/myapp/app.jar
 
+          
           # Khởi động app
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} << 'EOF'
             cd /home/${{ secrets.USERNAME }}/myapp
